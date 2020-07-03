@@ -4,9 +4,9 @@
 
 #define DOOR_PIN D3
 
-const char* wifiHostname = "nodemcu-frontdoor";
-const char* mqttTopicPrefix = "frontdoor/";
-const int enabledRfid = 1;
+const char* wifiHostname = "nodemcu-backdoor";
+const char* mqttTopicPrefix = "backdoor/";
+const int enabledRfid = 0;
 
 int doorVal = 0;
 WiFiClient espClient;
