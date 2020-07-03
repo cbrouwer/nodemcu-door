@@ -21,7 +21,6 @@ void setup() {
 }
 
 void setupWifi() {
-
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
